@@ -6,7 +6,7 @@ const BlogCard = () => {
       <div className="w-2/3 ">
         <img 
           src="https://res.cloudinary.com/dybiiddob/image/upload/v1677313928/pexels-roman-odintsov-4551832_jucm2z.jpg"
-          alt="blog"
+          alt="blog "
         ></img>
       </div>
       <div>

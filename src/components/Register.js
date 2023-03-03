@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Login = () => {
+const Register = () => {
   return (
-   
-<div class="h-screen flex">
+    
+    <div class="h-screen flex">
   <div class="flex w-1/2 bg-gradient-to-tr from-cyan-800 to-sky-700 i justify-around items-center">
     <div>
       <h1 class="text-white font-bold text-4xl font-sans">Blog</h1>
@@ -27,12 +27,12 @@ const Login = () => {
         </svg>
         <input class="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Password" />
       </div>
-      <button type="submit" class="block w-full bg-sky-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Login</button>
-      <span class="text-sm ml-2 hover:text-blue-500 cursor-pointer">Forgot Password ?</span>
+      <button type="submit" class="block w-full bg-sky-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Register</button>
+      
     </form>
   </div>
 </div>
   )
 }
 
-export default Login
+export default Register

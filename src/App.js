@@ -1,14 +1,12 @@
 
 import './App.css';
-import BlogCard from './components/BlogCard';
-import Header from './components/Header';
 import Login from './components/Login';
-import Signin from './components/Signin';
+import Register from './components/Register';
+import BlogList from './components/BlogList';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
+ 
 } from "react-router-dom";
 import Main from './components/Main';
 const appRouter = createBrowserRouter([
@@ -17,8 +15,8 @@ const appRouter = createBrowserRouter([
   element:<Login/>,
 },
 {
-  path:"/Signin",
-  element:<Signin/>,
+  path:"/register",
+  element:<Register/>,
 },
 {
   path:"/Home",
@@ -26,7 +24,7 @@ const appRouter = createBrowserRouter([
   children:[
     {
       path:"Blog",
-      element:<BlogCard/>
+      element:<BlogList/>
     }
   ]
 }
